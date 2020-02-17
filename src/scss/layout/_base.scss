@@ -1,0 +1,6 @@
+body{
+    // can use the apply directly to scss directive
+    @apply h-screen w-screen overflow-x-hidden overflow-y-auto;
+    //or the theme function
+    background-color: theme('colors.gray.100');
+}
